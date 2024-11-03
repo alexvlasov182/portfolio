@@ -19,8 +19,7 @@ banner: "/projects/react.png"
 ![Setting Up the Project with Vite](/projects/react.png)
 
 **Author:** Oleksandr Vlasov
-**Published on:** Oct 23, 2024
-**Reading Time:** 4 min read
+
 **Live Demo:** [https://todo-application-rho-five.vercel.app/](https://todo-application-rho-five.vercel.app/)
 
 **Blog RoyalZSoftware** [https://royalzsoftware.de/react-hooks-createcontext-usecontext-usememo](https://royalzsoftware.de/react-hooks-createcontext-usecontext-usememo)

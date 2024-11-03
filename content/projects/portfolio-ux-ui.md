@@ -1,6 +1,6 @@
 ---
 title: "UX/UI Designer Portfolio"
-date: 2024-11-03
+
 summary: "A portfolio site designed for Anastasiia, showcasing her skills, projects, and experiences as a product designer."
 tags:
   [
@@ -21,8 +21,7 @@ banner: "/projects/ux-ui-designer-banner.png"
 ![](/projects/ux-ui.png)
 
 **Author:** Oleksandr Vlasov
-**Published on:** Nov 3, 2024
-**Reading Time:** 4 min read
+
 **Live Demo:** [https://anastasiia-vlasova.vercel.app/](https://anastasiia-vlasova.vercel.app/)
 
 This portfolio site was crafted for Anastasiia to showcase her skills, projects, and experience as a product designer. The primary goal was to create an intuitive and visually appealing platform that reflects her design philosophy and professional background.
