@@ -1,6 +1,5 @@
 ---
 title: "Todo Application with React Hooks and TypeScript"
-date: 2024-10-23
 summary: "A Todo Application project built using React with TypeScript, diving into React features like useContext and useMemo."
 tags:
   [
@@ -16,8 +15,6 @@ author: "Oleksandr Vlasov"
 featured_image: "/projects/react.png"
 banner: "/projects/react.png"
 ---
-
-## Todo Application with React Hooks and TypeScript
 
 ![Setting Up the Project with Vite](/projects/react.png)
 

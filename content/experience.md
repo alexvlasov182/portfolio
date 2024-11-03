@@ -1,6 +1,5 @@
 ---
 title: "Experience and Skillset"
-date: 2024-11-03
 summary: "Overview of skills, work experience, achievements, and education."
 tags:
   [

@@ -18,8 +18,6 @@ featured_image: "/projects/ux-ui-designer.png"
 banner: "/projects/ux-ui-designer-banner.png"
 ---
 
-## UX/UI Designer Portfolio
-
 ![](/projects/ux-ui.png)
 
 **Author:** Oleksandr Vlasov
