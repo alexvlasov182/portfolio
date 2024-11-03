@@ -6,15 +6,7 @@
     <description>Recent content in React on Oleksandr Vlasov</description>
     <generator>Hugo -- 0.136.4</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/react/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>UX/UI Designer Portfolio</title>
-      <link>http://localhost:1313/projects/portfolio-ux-ui/</link>
-      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/portfolio-ux-ui/</guid>
-      <description>A portfolio site designed for Anastasiia, showcasing her skills, projects, and experiences as a product designer.</description>
-    </item>
     <item>
       <title>Experience and Skillset</title>
       <link>http://localhost:1313/experience/</link>
@@ -28,6 +20,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/projects-todo/</guid>
       <description>A Todo Application project built using React with TypeScript, diving into React features like useContext and useMemo.</description>
+    </item>
+    <item>
+      <title>UX/UI Designer Portfolio</title>
+      <link>http://localhost:1313/projects/portfolio-ux-ui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/portfolio-ux-ui/</guid>
+      <description>A portfolio site designed for Anastasiia, showcasing her skills, projects, and experiences as a product designer.</description>
     </item>
   </channel>
 </rss>

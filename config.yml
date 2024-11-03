@@ -23,7 +23,7 @@ params:
     enabled: true
     title: "Oleksandr Vlasov"
     subtitle: Hi there! 👋 I’m Oleksandr. I’m a junior React Developer, just starting my journey in web development. I love creating interactive and user-friendly web apps. Right now, I’m learning all about React and its tools, like Redux for managing state, React Hooks for building reusable components, and React Native for mobile apps.
-    imageUrl: "/me.jpeg"
+    imageUrl: "/home/me.jpeg"
     imageWidth: 220
     imageHeight: 220
     buttons:
