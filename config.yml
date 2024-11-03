@@ -22,12 +22,7 @@ params:
   profileMode:
     enabled: true
     title: "Oleksandr Vlasov"
-    subtitle:
-      Hi 👋 I'm Oleksandr, As a junior React Developer, I am at the beginning of an exciting
-      journey in web development, driven by a passion for creating dynamic and
-      user-friendly web applications. I am currently focused on mastering
-      React and its ecosystem, including tools like Redux for state management
-      and React Hooks for building efficient reusable components and React Native for mobile development.
+    subtitle: Hi there! 👋 I’m Oleksandr. I’m a junior React Developer, just starting my journey in web development. I love creating interactive and user-friendly web apps. Right now, I’m learning all about React and its tools, like Redux for managing state, React Hooks for building reusable components, and React Native for mobile apps.
     imageUrl: "/me.jpeg"
     imageWidth: 220
     imageHeight: 220
