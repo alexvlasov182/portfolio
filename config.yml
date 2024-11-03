@@ -1,0 +1,50 @@
+baseURL: ""
+languageCode: en-us
+title: Oleksandr Vlasov
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 40
+    - identifier: about
+      name: About
+      url: /about
+      weight: 60
+
+params:
+  profileMode:
+    enabled: true
+    title: "Oleksandr Vlasov"
+    subtitle:
+      Hi 👋 I'm Oleksandr, As a junior React Developer, I am at the beginning of an exciting
+      journey in web development, driven by a passion for creating dynamic and
+      user-friendly web applications. I am currently focused on mastering
+      React and its ecosystem, including tools like Redux for state management
+      and React Hooks for building efficient reusable components and React Native for mobile development.
+    imageUrl: "/home/me.jpeg"
+    imageWidth: 220
+    imageHeight: 220
+    buttons:
+      - name: Resume
+        url: "https://drive.google.com/file/d/1WMarOb_wGE5xL-jhpGTOnhxRaey2gs7n/view?usp=sharing"
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:drumlife182@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/oleksandr-vlasov-9969ab19b/"
+    - name: "github"
+      url: "https://github.com/alexvlasov182"
+    - name: "youtube"
+      url: "https://www.youtube.com/@alexvlasov2271/videos"

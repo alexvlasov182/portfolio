@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Junior Developer Project on Oleksandr Vlasov</title>
+    <link>//localhost:1313/tags/junior-developer-project/</link>
+    <description>Recent content in Junior Developer Project on Oleksandr Vlasov</description>
+    <generator>Hugo -- 0.136.4</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/junior-developer-project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UX/UI Designer Portfolio</title>
+      <link>//localhost:1313/projects/portfolio-ux-ui/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/portfolio-ux-ui/</guid>
+      <description>A portfolio site designed for Anastasiia, showcasing her skills, projects, and experiences as a product designer.</description>
+    </item>
+    <item>
+      <title>Todo Application with React Hooks and TypeScript</title>
+      <link>//localhost:1313/projects/projects-todo/</link>
+      <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/projects-todo/</guid>
+      <description>A Todo Application project built using React with TypeScript, diving into React features like useContext and useMemo.</description>
+    </item>
+  </channel>
+</rss>
