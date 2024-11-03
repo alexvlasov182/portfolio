@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Oleksandr Vlasov</title>
-    <link>//localhost:1313/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Oleksandr Vlasov</description>
     <generator>Hugo -- 0.136.4</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Professional Experience</title>
-      <link>//localhost:1313/categories/professional-experience/</link>
+      <link>http://localhost:1313/categories/professional-experience/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/professional-experience/</guid>
+      <guid>http://localhost:1313/categories/professional-experience/</guid>
       <description></description>
     </item>
     <item>
       <title>Projects</title>
-      <link>//localhost:1313/categories/projects/</link>
+      <link>http://localhost:1313/categories/projects/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/projects/</guid>
+      <guid>http://localhost:1313/categories/projects/</guid>
       <description></description>
     </item>
     <item>
       <title>Resume</title>
-      <link>//localhost:1313/categories/resume/</link>
+      <link>http://localhost:1313/categories/resume/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/resume/</guid>
+      <guid>http://localhost:1313/categories/resume/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Development</title>
-      <link>//localhost:1313/categories/web-development/</link>
+      <link>http://localhost:1313/categories/web-development/</link>
       <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/web-development/</guid>
+      <guid>http://localhost:1313/categories/web-development/</guid>
       <description></description>
     </item>
     <item>
       <title>React Development</title>
-      <link>//localhost:1313/categories/react-development/</link>
+      <link>http://localhost:1313/categories/react-development/</link>
       <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/react-development/</guid>
+      <guid>http://localhost:1313/categories/react-development/</guid>
       <description></description>
     </item>
   </channel>
