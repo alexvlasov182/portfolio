@@ -28,7 +28,7 @@ params:
       user-friendly web applications. I am currently focused on mastering
       React and its ecosystem, including tools like Redux for state management
       and React Hooks for building efficient reusable components and React Native for mobile development.
-    imageUrl: "/home/me.jpeg"
+    imageUrl: "/me.jpeg"
     imageWidth: 220
     imageHeight: 220
     buttons:
