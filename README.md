@@ -22,7 +22,7 @@ This repository contains the code for my personal portfolio, built using Hugo, a
 1.Clone this repository
 
 ```
-git clone https://github.com/username/portfolio-hugo.git
+git clone https://github.com/alexvlasov182/portfolio-hugo.git
 cd portfolio-hugo
 ```
 
@@ -54,4 +54,4 @@ hugo
 For questions or suggestions, you can reach me at:
 
 - Email: drumlife182@gmail.com
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/oleksandr-vlasov-9969ab19b/)
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/oleksandr-vlasov-9969ab19b/)
