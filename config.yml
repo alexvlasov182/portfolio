@@ -18,17 +18,22 @@ menu:
       url: /experience
       weight: 40
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 params:
   profileMode:
     enabled: true
     title: "Oleksandr Vlasov"
-    subtitle: Hi there! 👋 I’m Oleksandr. I’m a junior React Developer, just starting my journey in web development. I love creating interactive and user-friendly web apps. Right now, I’m learning all about React and its tools, like Redux for managing state, React Hooks for building reusable components, and React Native for mobile apps.
+    subtitle: Hi, I’m Oleksandr a React & React Native Developer. I help startups and small teams build fast and reliable MVPs from web interfaces to mobile apps. I specialize in Building cross-platform mobile apps with React Native. Developing responsive and hight-performance web UIs using Next.js and TypeScript. Expanding my backend skills with Node.js and Go. I enjoy writing clean, maintainable code, working in agile teams, and learning new tools quickly.
     imageUrl: "/home/me.jpeg"
     imageWidth: 220
     imageHeight: 220
     buttons:
       - name: Resume
-        url: "https://drive.google.com/file/d/1WMarOb_wGE5xL-jhpGTOnhxRaey2gs7n/view?usp=sharing"
+        url: ""
 
   socialIcons:
     - name: "email"

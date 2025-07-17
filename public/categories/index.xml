@@ -1,1 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Categories on Oleksandr Vlasov</title><link>https://oleksandr-vlasov.com/categories/</link><description>Recent content in Categories on Oleksandr Vlasov</description><generator>Hugo -- 0.136.4</generator><language>en-us</language><atom:link href="https://oleksandr-vlasov.com/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Professional Experience</title><link>https://oleksandr-vlasov.com/categories/professional-experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://oleksandr-vlasov.com/categories/professional-experience/</guid><description/></item><item><title>Projects</title><link>https://oleksandr-vlasov.com/categories/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://oleksandr-vlasov.com/categories/projects/</guid><description/></item><item><title>React Development</title><link>https://oleksandr-vlasov.com/categories/react-development/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://oleksandr-vlasov.com/categories/react-development/</guid><description/></item><item><title>Resume</title><link>https://oleksandr-vlasov.com/categories/resume/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://oleksandr-vlasov.com/categories/resume/</guid><description/></item><item><title>Web Development</title><link>https://oleksandr-vlasov.com/categories/web-development/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://oleksandr-vlasov.com/categories/web-development/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Oleksandr Vlasov</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Oleksandr Vlasov</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mobile Development</title>
+      <link>http://localhost:1313/categories/mobile-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/mobile-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Professional Experience</title>
+      <link>http://localhost:1313/categories/professional-experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/professional-experience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/categories/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React Development</title>
+      <link>http://localhost:1313/categories/react-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/react-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React Native</title>
+      <link>http://localhost:1313/categories/react-native/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/react-native/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/categories/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/resume/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Development</title>
+      <link>http://localhost:1313/categories/web-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/web-development/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

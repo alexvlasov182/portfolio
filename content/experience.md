@@ -18,13 +18,11 @@ author: "Oleksandr Vlasov"
 ## Skillset
 
 ### Developer Skills
-
+- React, React Native
+- Node.js/Golang
 - JavaScript (ES6+)
 - TypeScript
-- React
-- HTML5/CSS
-- SCSS/SASS
-- Python/Go
+
 
 ### Tools
 
@@ -35,8 +33,8 @@ author: "Oleksandr Vlasov"
 
 ### Languages
 
-- **English:** C1
-- **German:** A1
+- **English:** B2
+- **German:** A2
 - **Ukrainian:** C2
 - **Russian:** C2
 
@@ -49,24 +47,33 @@ My final project was selected as the best in my group, leading to the opportunit
 
 ## Work Experience
 
+### RoyalZSoftware | React Native Developer
+
+**Jun 2024 - Present | Weilheim, Bavaria, Germany**
+
+- Build and maintain cross-platform mobile applications using React Native and TypeScript.
+- Develop frontend features with Next.js, ensuring responsive design and optimal performance.
+- Implement backend logic using Appwrite, including database operations and API integrations.
+- Collaborate closely with designers and backend developers to deliver seamless, user-centered experiences.
+- Conduct manual and automated testing to ensure application stability and performance.
+
 ### QPLix | Automation Quality Assurance
 
 **September 2023 - June 2024 | Munich, Germany**
-I worked on projects involving testing wealth management products. My main responsibilities included:
 
-- Testing software related to finance to ensure proper functionality.
-- Using TestCafe and TypeScript to automate testing processes.
-- Writing code to automatically test various aspects of web applications.
-- Collaborating closely with developers, product managers, and other teams to maintain high-quality financial software.
+- Designed and executed exploratory tests to validate new features and bug fixes.
+- Automated UI tests using TypeScript & TestCafe to streamline regression testing.
+- Created clear test documentation and filed bug reports in collaboration with development teams.
+- Assisted rollout management by reviewing builds and supporting release approvals.
 
 ### UPWORK | Junior Web Developer
 
 **December 2021 - February 2022 | Kharkiv, Ukraine**
-I worked on projects involving software engineer collaborations. My main responsibilities included:
 
-- Developing and maintaining web applications using the Laravel framework.
-- Implementing and managing database functionality, and testing and debugging code to ensure proper functionality.
-- Collaborating with cross-functional teams, working closely with product managers, developers, visual designers, and other stakeholders.
+- Developed and maintained web applications using Laravel.
+- Implemented and managed database functionality (MySQL), ensuring data reliability and performance.
+- Tested, debugged and optimized backend code to ensure smooth functionality.
+- Collaborated with product managers, frontend developers, and UI/UX designers on delivery of client projects.
 
 ### Izumy IT Company | Junior Markup Developer
 
@@ -85,6 +92,11 @@ I mainly developed web pages. My main responsibilities included:
 
 **Sep 2006 - May 2011 | Kharkiv, Ukraine**
 Specialist in Information Measuring Systems.
+
+- Specializing in Intelligent Measurement Systems and Quality Engineering, gaining a strong foundation in system analysis, quality control, and engineering principles.
+- Completed coursework and projects related to automation, data analysis, and process optimization.
+- Developed problem-solving skills and a methodical approach to technical challenges.
+- Participated in practical labs and team projects, enhancing collaboration and technical communication abilities.
 
 ### Courses
 
