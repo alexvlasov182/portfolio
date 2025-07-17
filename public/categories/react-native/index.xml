@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>React Native on Oleksandr Vlasov</title>
-    <link>http://localhost:1313/categories/react-native/</link>
+    <link>https://oleksandr-vlasov.com/categories/react-native/</link>
     <description>Recent content in React Native on Oleksandr Vlasov</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/categories/react-native/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://oleksandr-vlasov.com/categories/react-native/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Isar – iOS App Built with React Native</title>
-      <link>http://localhost:1313/projects/isar-ios-app/</link>
+      <link>https://oleksandr-vlasov.com/projects/isar-ios-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/isar-ios-app/</guid>
+      <guid>https://oleksandr-vlasov.com/projects/isar-ios-app/</guid>
       <description>&lt;!-- ![](/projects/isar-1.png) --&gt;
 &lt;div style=&#34;display: flex; gap: 12px;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/projects/isar-1.png&#34; alt=&#34;1&#34; width=&#34;280&#34; /&gt;
-  &lt;img src=&#34;http://localhost:1313/projects/isar-2.png&#34; alt=&#34;2&#34; width=&#34;280&#34; /&gt;
-  &lt;img src=&#34;http://localhost:1313/projects/isar-3.png&#34; alt=&#34;3&#34; width=&#34;280&#34; /&gt;
+  &lt;img src=&#34;https://oleksandr-vlasov.com/projects/isar-1.png&#34; alt=&#34;1&#34; width=&#34;280&#34; /&gt;
+  &lt;img src=&#34;https://oleksandr-vlasov.com/projects/isar-2.png&#34; alt=&#34;2&#34; width=&#34;280&#34; /&gt;
+  &lt;img src=&#34;https://oleksandr-vlasov.com/projects/isar-3.png&#34; alt=&#34;3&#34; width=&#34;280&#34; /&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Author:&lt;/strong&gt; Oleksandr Vlasov.&lt;br&gt;
 &lt;strong&gt;Role:&lt;/strong&gt; React Native Developer.&lt;br&gt;

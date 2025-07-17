@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Todo Application with React Hooks and TypeScript | Oleksandr Vlasov</title>
 <meta name="keywords" content="React, TypeScript, useContext, useMemo, Todo Application, Junior Developer Project">
 <meta name="description" content="A Todo Application project built using React with TypeScript, diving into React features like useContext and useMemo.">
 <meta name="author" content="Oleksandr Vlasov">
-<link rel="canonical" href="http://localhost:1313/projects/projects-todo/">
+<link rel="canonical" href="https://oleksandr-vlasov.com/projects/projects-todo/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.a8501b4e1544bf104a4e2647be64df3637f95b6ac25a4298047d87fe0eacffa1.css" integrity="sha256-qFAbThVEvxBKTiZHvmTfNjf5W2rCWkKYBH2H/g6s/6E=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://oleksandr-vlasov.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://oleksandr-vlasov.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://oleksandr-vlasov.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://oleksandr-vlasov.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://oleksandr-vlasov.com/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/projects/projects-todo/">
+<link rel="alternate" hreflang="en" href="https://oleksandr-vlasov.com/projects/projects-todo/">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,7 +55,71 @@
         }
 
     </style>
-</noscript>
+</noscript><meta property="og:title" content="Todo Application with React Hooks and TypeScript" />
+<meta property="og:description" content="A Todo Application project built using React with TypeScript, diving into React features like useContext and useMemo." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://oleksandr-vlasov.com/projects/projects-todo/" /><meta property="article:section" content="projects" />
+  
+  
+<meta name="twitter:card" content="summary" />
+
+<meta name="twitter:title" content="Todo Application with React Hooks and TypeScript" />
+<meta name="twitter:description" content="A Todo Application project built using React with TypeScript, diving into React features like useContext and useMemo." />
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "https://oleksandr-vlasov.com/projects/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Todo Application with React Hooks and TypeScript",
+      "item": "https://oleksandr-vlasov.com/projects/projects-todo/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Todo Application with React Hooks and TypeScript",
+  "name": "Todo Application with React Hooks and TypeScript",
+  "description": "A Todo Application project built using React with TypeScript, diving into React features like useContext and useMemo.",
+  "keywords": [
+    "React", "TypeScript", "useContext", "useMemo", "Todo Application", "Junior Developer Project"
+  ],
+  "articleBody": " Author: Oleksandr Vlasov\nLive Demo: https://todo-application-rho-five.vercel.app/\nBlog RoyalZSoftware https://royalzsoftware.de/react-hooks-createcontext-usecontext-usememo\nAs a junior React developer, I recently completed a project to build a Todo Application using React with TypeScript. The primary goal was to create a functional app and enhance my understanding of React hooks like useState, useMemo, and especially useContext for state management.\nThis app enables users to add, delete, mark tasks as complete, and download the to-do list as a CSV file. Here’s an overview of how I structured the app and applied these React hooks.\n1. Setting Up the Project with Vite To kickstart the project, I used Vite to create a fast, TypeScript-ready React environment:\nnpm create vite@latest my-todo-app --template react-ts Managing Todos with useState The app’s core functionality is the to-do list. Here’s how I managed the state with useState.\nTypeScript Code: export interface Todo { text: string; completed: boolean; } const [todos, setTodos] = useState\u003cTodo[]\u003e([]); Avoiding Prop Drilling with useContext To avoid prop drilling, I used createContext to create a global state. Components accessed the state using useContext.\nTypeScript Code: const TodoContext = createContext\u003cTodoContextType | undefined\u003e(undefined); const { todos, addTodo, deleteTodo, toggleTodo } = useContext(TodoContext); Marking Todos as Complete/Incomplete A checkbox toggles the completion status of each task.\nTypeScript Code: function toggleTodo(index: number) { setTodos((prevTodos) =\u003e prevTodos.map((todo, i) =\u003e i === index ? { ...todo, completed: !todo.completed } : todo ) ); } Deleting Todos To delete a todo item, I used the filter() method.\nTypeScript Code: function deleteTodo(index: number) { setTodos((prevTodos) =\u003e prevTodos.filter((_, i) =\u003e i !== index)); } Downloading the Todo List as CSV I added a feature to download the to-do list as a CSV file.\nTypeScript Code: const downloadCSV = () =\u003e { const dataCSV = \"task,completed\\n\" + todos .map( (todo) =\u003e `${todo.text}, ${todo.completed ? \"done\" : \"not completed\"}` ) .join(\"\\n\"); const blob = new Blob([dataCSV], { type: \"text/csv\" }); const url = window.URL.createObjectURL(blob); const a = document.createElement(\"a\"); a.href = url; a.download = \"todo-list.csv\"; a.click(); window.URL.revokeObjectURL(url); }; ",
+  "wordCount" : "326",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Oleksandr Vlasov"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://oleksandr-vlasov.com/projects/projects-todo/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Oleksandr Vlasov",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://oleksandr-vlasov.com/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -73,7 +137,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Oleksandr Vlasov (Alt + H)">Oleksandr Vlasov</a>
+            <a href="https://oleksandr-vlasov.com/" accesskey="h" title="Oleksandr Vlasov (Alt + H)">Oleksandr Vlasov</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -99,17 +163,17 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/" title="Home">
+                <a href="https://oleksandr-vlasov.com/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/projects" title="Projects">
+                <a href="https://oleksandr-vlasov.com/projects" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/experience" title="Experience">
+                <a href="https://oleksandr-vlasov.com/experience" title="Experience">
                     <span>Experience</span>
                 </a>
             </li>
@@ -196,19 +260,19 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/react/">React</a></li>
-      <li><a href="http://localhost:1313/tags/typescript/">TypeScript</a></li>
-      <li><a href="http://localhost:1313/tags/usecontext/">UseContext</a></li>
-      <li><a href="http://localhost:1313/tags/usememo/">UseMemo</a></li>
-      <li><a href="http://localhost:1313/tags/todo-application/">Todo Application</a></li>
-      <li><a href="http://localhost:1313/tags/junior-developer-project/">Junior Developer Project</a></li>
+      <li><a href="https://oleksandr-vlasov.com/tags/react/">React</a></li>
+      <li><a href="https://oleksandr-vlasov.com/tags/typescript/">TypeScript</a></li>
+      <li><a href="https://oleksandr-vlasov.com/tags/usecontext/">UseContext</a></li>
+      <li><a href="https://oleksandr-vlasov.com/tags/usememo/">UseMemo</a></li>
+      <li><a href="https://oleksandr-vlasov.com/tags/todo-application/">Todo Application</a></li>
+      <li><a href="https://oleksandr-vlasov.com/tags/junior-developer-project/">Junior Developer Project</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">Oleksandr Vlasov</a></span> · 
+        <span>&copy; 2025 <a href="https://oleksandr-vlasov.com/">Oleksandr Vlasov</a></span> · 
 
     <span>
         Powered by
