@@ -14,11 +14,26 @@ featured_image: "/projects/ux-ui-designer.png"
 banner: "/projects/ux-ui-designer-banner.png"
 ---
 
-<!-- ![](/projects/isar-1.png) -->
-<div style="display: flex; gap: 12px;">
-  <img src="/projects/isar-1.png" alt="1" width="280" />
-  <img src="/projects/isar-2.png" alt="2" width="280" />
-  <img src="/projects/isar-3.png" alt="3" width="280" />
+<style>
+  .image-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .image-row img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
+</style>
+
+<div class="image-row">
+  <img src="/projects/isar-1.png" alt="1" />
+  <img src="/projects/isar-2.png" alt="2" />
+  <img src="/projects/isar-3.png" alt="3" />
 </div>
 
 

@@ -219,11 +219,25 @@ The Isar app is a real-world iOS application developed as part of my work in a p
 
 </div>
   </header> 
-  <div class="post-content"><!-- ![](/projects/isar-1.png) -->
-<div style="display: flex; gap: 12px;">
-  <img src="/projects/isar-1.png" alt="1" width="280" />
-  <img src="/projects/isar-2.png" alt="2" width="280" />
-  <img src="/projects/isar-3.png" alt="3" width="280" />
+  <div class="post-content"><style>
+  .image-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .image-row img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
+</style>
+<div class="image-row">
+  <img src="/projects/isar-1.png" alt="1" />
+  <img src="/projects/isar-2.png" alt="2" />
+  <img src="/projects/isar-3.png" alt="3" />
 </div>
 <p><strong>Author:</strong> Oleksandr Vlasov.<br>
 <strong>Role:</strong> React Native Developer.<br>

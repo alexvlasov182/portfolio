@@ -27,13 +27,14 @@ params:
   profileMode:
     enabled: true
     title: "Oleksandr Vlasov"
-    subtitle: Hi, I’m Oleksandr a React & React Native Developer. I help startups and small teams build fast and reliable MVPs from web interfaces to mobile apps. I specialize in Building cross-platform mobile apps with React Native. Developing responsive and hight-performance web UIs using Next.js and TypeScript. Expanding my backend skills with Node.js and Go. I enjoy writing clean, maintainable code, working in agile teams, and learning new tools quickly.
+    subtitle: "Hi, I’m Oleksandr - a React & React Native Developer. I help startups and small teams build fast, reliable MVPs for web and mobile platforms. I specialize in cross-platform apps with React Native, scalable UIs with Next.js & TypeScript, and expanding backend skills with Node.js and Go. I enjoy writing clean code, working in agile teams, and adapting quickly to new challenges."
     imageUrl: "/home/me.jpeg"
     imageWidth: 220
     imageHeight: 220
     buttons:
       - name: Resume
-        url: ""
+        url: "https://drive.google.com/file/d/1RrDBoqQdozzbUff6ScINM0qrZl6sj2-3/view?usp=sharing"
+
 
   socialIcons:
     - name: "email"

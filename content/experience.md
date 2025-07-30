@@ -18,11 +18,10 @@ author: "Oleksandr Vlasov"
 ## Skillset
 
 ### Developer Skills
-- React, React Native
-- Node.js/Golang
 - JavaScript (ES6+)
 - TypeScript
-
+- React & React Native
+- Node.js & Golang (learning)
 
 ### Tools
 
@@ -34,7 +33,7 @@ author: "Oleksandr Vlasov"
 ### Languages
 
 - **English:** B2
-- **German:** A2
+- **German:** B1
 - **Ukrainian:** C2
 - **Russian:** C2
 
@@ -47,7 +46,7 @@ My final project was selected as the best in my group, leading to the opportunit
 
 ## Work Experience
 
-### RoyalZSoftware | React Native Developer
+### RoyalZSoftware | React Native Engineer 
 
 **Jun 2024 - Present | Weilheim, Bavaria, Germany**
 

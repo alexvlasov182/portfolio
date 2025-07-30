@@ -19,11 +19,25 @@
       <link>https://oleksandr-vlasov.com/projects/isar-ios-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://oleksandr-vlasov.com/projects/isar-ios-app/</guid>
-      <description>&lt;!-- ![](/projects/isar-1.png) --&gt;
-&lt;div style=&#34;display: flex; gap: 12px;&#34;&gt;
-  &lt;img src=&#34;https://oleksandr-vlasov.com/projects/isar-1.png&#34; alt=&#34;1&#34; width=&#34;280&#34; /&gt;
-  &lt;img src=&#34;https://oleksandr-vlasov.com/projects/isar-2.png&#34; alt=&#34;2&#34; width=&#34;280&#34; /&gt;
-  &lt;img src=&#34;https://oleksandr-vlasov.com/projects/isar-3.png&#34; alt=&#34;3&#34; width=&#34;280&#34; /&gt;
+      <description>&lt;style&gt;
+  .image-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .image-row img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
+&lt;/style&gt;
+&lt;div class=&#34;image-row&#34;&gt;
+  &lt;img src=&#34;https://oleksandr-vlasov.com/projects/isar-1.png&#34; alt=&#34;1&#34; /&gt;
+  &lt;img src=&#34;https://oleksandr-vlasov.com/projects/isar-2.png&#34; alt=&#34;2&#34; /&gt;
+  &lt;img src=&#34;https://oleksandr-vlasov.com/projects/isar-3.png&#34; alt=&#34;3&#34; /&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Author:&lt;/strong&gt; Oleksandr Vlasov.&lt;br&gt;
 &lt;strong&gt;Role:&lt;/strong&gt; React Native Developer.&lt;br&gt;
