@@ -8,7 +8,8 @@ tags:
     "JavaScript",
     "TypeScript",
     "React",
-    "Python",
+    "Node.js",
+    "Go",
     "Career Experience",
   ]
 categories: ["Resume", "Professional Experience"]
@@ -18,10 +19,10 @@ author: "Oleksandr Vlasov"
 ## Skillset
 
 ### Developer Skills
-- JavaScript (ES6+)
-- TypeScript
+- JavaScript (ES6+) & TypeScript
 - React & React Native
 - Node.js & Golang (learning)
+- Python, FastAPI, Django (ReDi School Munich, course)
 
 ### Tools
 
@@ -87,7 +88,7 @@ I mainly developed web pages. My main responsibilities included:
 
 ## Education
 
-### National Aerospace University Kharkov Aviation Institute
+### National Aerospace University Kharkiv Aviation Institute
 
 **Sep 2006 - May 2011 | Kharkiv, Ukraine**
 Specialist in Information Measuring Systems.
@@ -99,6 +100,7 @@ Specialist in Information Measuring Systems.
 
 ### Courses
 
+- Zertifikat Deutsch / telc Deutsch B1 | Jul 2025
 - React + Redux Professional Development
 - Python Hybrid
 - Automated Software Testing with TestCafe
